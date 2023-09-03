@@ -26,9 +26,8 @@ export class CronScheduler {
     throw new Error(`
     Invalid cron pattern : '${cronPattern}'
     cron pattern example:
-    * * * * * *
-    | | | | | |
-    | | | | | +-- Year (example: 2023)
+    * * * * * 
+    | | | | | 
     | | | | +---- Day of week (0 - 6) (sunday to saturday)
     | | | +------ Month (1 - 12 or month names , 'jan', 'feb', etc.)
     | | +-------- Day of month (1 - 31)
